@@ -64,7 +64,7 @@ def main():
 
     mp3_outfile_name = str(wav_to_convert_Path.stem) + ".mp3"
     mp3_outfile_Path = Path(args.output_dir, mp3_outfile_name)
-    mp3_outfile_Path.unlink(missing_ok=True) # delete the .mp4 file if it's there
+    mp3_outfile_Path.unlink(missing_ok=True) # delete the .mp3 file if it's there
 
 
     print(f"input .wav file \n {wav_to_convert_Path}")
@@ -169,7 +169,7 @@ def main():
 
     mp3_outfile_name = str(wav_to_convert_Path.stem) + ".mp3"
     mp3_outfile_Path = Path(args.output_dir, mp3_outfile_name)
-    mp3_outfile_Path.unlink(missing_ok=True) # delete the .mp4 file if it's there
+    mp3_outfile_Path.unlink(missing_ok=True) # delete the .mp3 file if it's there
 
 
     print(f"input .wav file \n {wav_to_convert_Path}")
